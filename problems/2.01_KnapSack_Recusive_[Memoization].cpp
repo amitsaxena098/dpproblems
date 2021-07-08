@@ -27,7 +27,7 @@ int main()
 	vector<int> val{60, 100,120};
 	int capacity = 50;
 
-	vector<vector<int>> memo(capacity+1, vector<int>(wt.size()+1, -1));
+	vector<vector<int>> memo(wt.size()+1, vector<int>(capacity+1, -1));
 	
 	cout << knapsack(wt, val, capacity, wt.size(), memo) << endl;;
 
