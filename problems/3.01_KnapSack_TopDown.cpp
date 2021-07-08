@@ -1,5 +1,10 @@
 #include<bits/stdc++.h>
 
+/*
+Time Complexity: O(N*capacity). 
+Auxiliary Space: O(N*capacity). 
+*/
+
 using namespace std;
 
 int main()
