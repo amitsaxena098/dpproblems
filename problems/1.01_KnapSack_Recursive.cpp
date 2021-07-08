@@ -1,5 +1,10 @@
 #include<bits/stdc++.h>
 
+/*
+Time Complexity: O(2^n) [ Overlapping subproblems property: Subproblems are evaluated again]
+Auxiliary Space : O(1) 
+*/
+
 using namespace std;
 
 int knapsack(vector<int>& wt, vector<int>& val, int capacity, int n)
